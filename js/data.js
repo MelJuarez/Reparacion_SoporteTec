@@ -24,7 +24,7 @@ let data = [
         titulo: "Instalación de Software",
         img: "https://static.vecteezy.com/system/resources/previews/005/163/462/non_2x/man-updating-software-on-computer-with-progress-bar-and-installation-software-system-illustration-vector.jpg",
         descripcion: "Cómo instalar software en una computadora",
-        precio:100,
+        precio:200,
         herramientas: [
             "Computadora con sistema operativo instalado",
             "Software a instalar"
@@ -44,7 +44,7 @@ let data = [
         titulo: "Resolución de problemas de red",
         img: "https://incuatro.com/wp-content/uploads/2019/06/Redes-informaticas.jpg",
         descripcion: "Cómo resolver problemas de conectividad de red",
-        precio:100,
+        precio:300,
         herramientas: [
             "Computadora con conexión a internet",
             "Comprobador de cables de red",
@@ -65,7 +65,7 @@ let data = [
         titulo: "Eliminación de malware",
         img: "https://images.ecestaticos.com/A9sGHgjs9-Wf7pTrmRGcEeX_WXQ=/3x130:1630x1040/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fd0d%2F6e7%2F952%2Fd0d6e7952c575b655bb3886490d07abe.jpg",
         descripcion: "Cómo detectar y eliminar malware de una computadora",
-        precio:100,
+        precio:150,
         herramientas: [
             "Antivirus actualizado",
             "Herramienta de eliminación de malware"
@@ -82,7 +82,7 @@ let data = [
         titulo: "Actualización de controladores",
         img: "https://cifpn1.com/tic/wp-content/uploads/2020/05/drivers_1200x720-656x394.png",
         descripcion: "Cómo actualizar los controladores de hardware en una computadora",
-        precio:100,
+        precio:80,
         herramientas: [
             "Conexión a internet",
             "Navegador web",
@@ -102,7 +102,7 @@ let data = [
         titulo: "Configuración de red inalámbrica",
         img: "https://www.redesinalambricas.es/wp-content/uploads/2019/03/redes-inalambricas.jpg",
         descripcion: "Cómo configurar una red inalámbrica en el enrutador",
-        precio:100,
+        precio:120,
         herramientas: [
             "Computadora con conexión a internet",
             "Enrutador inalámbrico"
@@ -124,7 +124,7 @@ let data = [
         titulo: "Recuperación de datos",
         img: "https://centribal.com/wp-content/uploads/2020/05/Tipos-RD-min.png",
         descripcion: "Cómo recuperar datos perdidos o borrados en una unidad de almacenamiento",
-        precio:100,
+        precio:200,
         herramientas: [
             "Software de recuperación de datos",
             "Unidad de almacenamiento externa (opcional)"
@@ -145,7 +145,7 @@ let data = [
         titulo: "Optimización de rendimiento",
         img: "https://pandorafms.com/blog/wp-content/uploads/2017/12/Optimizacion-de-rendimiento-web-featured.png",
         descripcion: "Cómo mejorar el rendimiento de una computadora",
-        precio:100,
+        precio:150,
         herramientas: [
             "Herramientas de limpieza y optimización del sistema",
             "Administrador de tareas"
@@ -167,7 +167,7 @@ let data = [
         titulo: "Configuración de correo electrónico",
         img: "https://support.content.office.net/es-es/media/c3c7d4eb-cb54-48b6-aaf8-ca88fa9394db.png",
         descripcion: "Cómo configurar una cuenta de correo electrónico en un cliente de correo",
-        precio:100,
+        precio:50,
         herramientas: [
             "Cliente de correo electrónico instalado (por ejemplo, Outlook, Thunderbird)",
             "Credenciales de correo electrónico"

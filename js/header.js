@@ -3,12 +3,15 @@ let header_DOM = document.querySelector("#header");
 let header_componente = `
         <h2> Técnico </h2>
         <ul>
-            <li>Título 1</li>
-            <li>Título 2</li>
-            <li>Título 3</li>
-            <li>Título 4</li>
+            <li>PC</li>
+            <li>Laptop</li>
+            <li>Consola</li>
+            <li>Software</li>
         </ul>            
    
 `
 
 header_DOM.innerHTML= header_componente;
+
+
+//git commit -am "soporte pantallas pequeñas"
