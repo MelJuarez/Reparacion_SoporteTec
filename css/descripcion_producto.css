@@ -8,6 +8,10 @@
     justify-content: space-around;
 
 }
+#daclick{
+    margin-top: 5rem;
+    text-align: center;
+}
 .one{
     display: flex;
     justify-content: space-around;
