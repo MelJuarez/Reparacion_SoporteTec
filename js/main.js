@@ -1,8 +1,7 @@
     import { data } from "./data.js";
 
-
-    //console.log(data)
-    let main_DOM = document.querySelector("#main");
+    let main_DOM = document.querySelector(".main");
+   
 
     data.forEach((cada_item) => {
 
@@ -22,15 +21,15 @@
     });
    
     let productos = document.querySelectorAll(".item");
-    //console.log(productos)
 
-    function saludar(){
-        //alert("Hi")
-        let caja_descripcion_DOM = document.querySelector(".descripcion_del_producto")
-        //let tiiitulo = productos.querySelectorAll("h2").textContent
+
+   
+    function descripcion(){
     
+        let caja_descripcion_DOM = document.querySelector(".descripcion_del_producto")    
+      
         let index = Array.from(productos).indexOf(this);// Obtiene el índice del producto al que se le dio clic
-         let productoSeleccionado = data[index]; // Obtiene los detalles del producto
+        let productoSeleccionado = data[index]; // Obtiene los detalles del producto
 
     // Actualiza el contenido de la sección descripcion_del_producto con los detalles del producto seleccionado
     caja_descripcion_DOM.innerHTML = `
@@ -53,14 +52,18 @@
         </div>     
     `;
 
-    
-        
+    main_DOM.classList.add("ocultar")
 
+    }
+
+    function RDescrip (){
+        let caja_descripcion_DOM = document.querySelector(".descripcion_del_producto")            
+        
     }
 
     productos.forEach ((cada_elemento) => {
 
         //console.log(cada_elemento);
-        cada_elemento.addEventListener("click",saludar)
+        cada_elemento.addEventListener("click",descripcion)
 
     });

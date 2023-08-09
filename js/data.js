@@ -18,7 +18,8 @@ let data = [
             "Asegúrate de que estén bien sujetos y ajustados los tornillos.",
             "Conecta nuevamente la computadora a la corriente.",
             "Enciende la computadora y verifica la temperatura del procesador para asegurarte de que la pasta térmica esté funcionando correctamente."
-        ]
+        ],
+        id:1
     },
     {   //2
         titulo: "Instalación de Software",
@@ -38,7 +39,8 @@ let data = [
             "Espera a que finalice la instalación.",
             "Reinicia la computadora, si es requerido por el software instalado.",
             "Verifica que el software funcione correctamente."
-        ]
+        ],
+        id:2
     },
     {   //3
         titulo: "Resolución de problemas de red",
@@ -59,7 +61,8 @@ let data = [
             "Actualiza los controladores de red de la computadora.",
             "Revisa la configuración de firewall y antivirus, ya que pueden bloquear la conexión.",
             "Si el problema persiste, contacta al proveedor de servicios de internet (ISP)."
-        ]
+        ],
+        id:3
     },
     {   //4
         titulo: "Eliminación de malware",
@@ -76,7 +79,8 @@ let data = [
             "Si el antivirus no puede eliminar el malware, utiliza una herramienta de eliminación de malware especializada.",
             "Asegúrate de eliminar por completo las amenazas detectadas.",
             "Realiza un segundo escaneo para confirmar que la computadora esté libre de malware."
-        ]
+        ],
+        id:4
     },
     {   //5
         titulo: "Actualización de controladores",
@@ -96,7 +100,8 @@ let data = [
             "Instala los controladores descargados siguiendo las instrucciones del asistente de instalación.",
             "Reinicia la computadora para aplicar los cambios.",
             "Verifica en el Administrador de dispositivos que los controladores se hayan instalado correctamente."
-        ]
+        ],
+        id:5
     },
     {   //6
         titulo: "Configuración de red inalámbrica",
@@ -118,7 +123,8 @@ let data = [
             "Aplica los cambios y desconecta la computadora del cable de red.",
             "Conéctate a la red inalámbrica con la contraseña configurada.",
             "Verifica que la conexión inalámbrica funcione correctamente."
-        ]
+        ],
+        id:6
     },
     {   //7
         titulo: "Recuperación de datos",
@@ -139,7 +145,8 @@ let data = [
             "Elige una ubicación segura para guardar los archivos recuperados (no en la unidad de almacenamiento afectada).",
             "Inicia el proceso de recuperación y espera a que finalice.",
             "Verifica los archivos recuperados para asegurarte de que estén en buen estado."
-        ]
+        ],
+        id:7
     },
     {   //8
         titulo: "Optimización de rendimiento",
@@ -161,7 +168,8 @@ let data = [
             "Reinicia la computadora para aplicar los cambios y verifica si hay mejoras en el rendimiento.",
             "Utiliza el Administrador de tareas para identificar y cerrar procesos que estén consumiendo demasiados recursos.",
             "Considera agregar más memoria RAM si la computadora sigue teniendo problemas de rendimiento."
-        ]
+        ],
+        id:8
     },
     {   //9
         titulo: "Configuración de correo electrónico",
@@ -181,7 +189,8 @@ let data = [
             "Completa la configuración y realiza una prueba de conexión.",
             "Verifica que puedas enviar y recibir correos electrónicos correctamente.",
             "Si tienes problemas, verifica la configuración y las credenciales, o contacta al proveedor de correo electrónico para obtener ayuda."
-        ]
+        ],
+        id:9
     },
     {   //10
         titulo: "Reemplazo de teclado",
@@ -201,7 +210,8 @@ let data = [
             "Coloca el teclado de reemplazo en su lugar y asegúralo con los tornillos.",
             "Vuelve a conectar la batería y enciende la computadora portátil.",
             "Verifica que todas las teclas del nuevo teclado funcionen correctamente."
-        ]
+        ],
+        id:10
     },
     {       //11
         titulo: "Configuración de impresora",
@@ -221,7 +231,8 @@ let data = [
             "Realiza una prueba de impresión para verificar que la configuración sea exitosa.",
             "Ajusta las preferencias de impresión según tus necesidades (calidad, tamaño de papel, etc.).",
             "Verifica que la impresora funcione correctamente al imprimir documentos o imágenes."
-        ]
+        ],
+        id:11
     }
 ]
 

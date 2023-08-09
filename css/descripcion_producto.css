@@ -14,7 +14,7 @@
 }
 .one{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-evenly;
 }
 .two{
     padding-left: 15rem;
@@ -48,4 +48,9 @@
 }
 .two ul{
     font-size: 1.5rem;
+}
+
+
+.ocultar{
+    display: none;
 }

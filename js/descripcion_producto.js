@@ -21,14 +21,26 @@ data.forEach((cada_item) => {
 
 });*/
 
+    let productoSeleccionado = data[index];
+    export let caja_descripcion = `
+        <div class="one">
+            <div class="contenedor_img">
+                <img src="${productoSeleccionado.img}" alt="">
+            </div>
+            <div class="contenedor_texto">
+                <h2>${productoSeleccionado.titulo}</h2>
+                <p>${productoSeleccionado.descripcion}</p>
+                <span>Q. ${productoSeleccionado.precio.toFixed(2)}</span>
+        </div>
+        </div>  
+        <div class="two"> 
+            <h4>Detalles del servicio</h4>
+            <ul>
+                ${productoSeleccionado.pasoAPaso.map(paso => `<li>${paso}</li>`).join('')}
+            </ul>
+        </div>          
 
-export let caja_descripcion = `
-
-        <p>Holaaaa</p>
-        
-           
-
-`
+    `;
 
 /*********
  * <div class="cajaimg" >
