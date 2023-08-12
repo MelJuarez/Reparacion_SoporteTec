@@ -40,7 +40,8 @@
     // Actualiza el contenido de la sección descripcion_del_producto con los detalles del producto seleccionado
     caja_descripcion_DOM.innerHTML = `
         <div class="one">
-       
+            
+            <button class="regresar-btn">⮌</button> 
             <div class="contenedor_img">
                 <img src="${productoSeleccionado.img}" alt="">
             </div>
@@ -62,29 +63,30 @@
                     <div>Comprar</div>
                 </div>
                 
-            </div>            
+            </div> 
+                    
         </div>  
 
-        <div class="two"> 
-            <h4>Detalles del servicio</h4>
-            <ul>
-                ${productoSeleccionado.pasoAPaso.map(paso => `<li>${paso}</li>`).join('')}
-            </ul>
-        </div>     
+        
     `;
+    
+    let regresarBtn = caja_descripcion_DOM.querySelector('.regresar-btn');
+    regresarBtn.addEventListener('click', regresarAlInicio);
 
     main_DOM.classList.add("ocultar")
 
     }
 
-    
+    /*
+      <div class="two"> 
+            <h4>Detalles del servicio</h4>
+            <ul>
+                ${productoSeleccionado.pasoAPaso.map(paso => `<li>${paso}</li>`).join('')}
+            </ul>
+        </div>       
+    */
 
-
-
-    function RDescrip (){
-        let caja_descripcion_DOM = document.querySelector(".descripcion_del_producto")            
-        
-    }
+        //<div class ="regresar-btn">⮌</div>
 
     productos.forEach ((cada_elemento) => {
 
@@ -92,3 +94,9 @@
         cada_elemento.addEventListener("click",descripcion)
 
     });
+
+    function regresarAlInicio() {
+        let caja_descripcion_DOM = document.querySelector(".descripcion_del_producto");
+        caja_descripcion_DOM.innerHTML = ''; // Limpiar contenido
+        main_DOM.classList.remove("ocultar"); // Mostrar la sección main nuevamente
+    }

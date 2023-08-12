@@ -92,7 +92,7 @@ let data = [
     },
     {   //5
         titulo: "Actualización de controladores",
-        img: "https://cifpn1.com/tic/wp-content/uploads/2020/05/drivers_1200x720-656x394.png",
+        img: "https://cdn.aarp.net/content/dam/aarp/home-and-family/personal-technology/2022/08/1140-windows11-esp.jpg",
         descripcion: "Cómo actualizar los controladores de hardware en una computadora",
         precioT:80,
         precioD:130,
@@ -115,7 +115,7 @@ let data = [
     },
     {   //6
         titulo: "Configuración de red inalámbrica",
-        img: "https://www.redesinalambricas.es/wp-content/uploads/2019/03/redes-inalambricas.jpg",
+        img: "https://www.clarin.com/img/2022/09/03/EskjPYYod_1256x620__1.jpg",
         descripcion: "Cómo configurar una red inalámbrica en el enrutador",
         precioT:120,
         precioD:170,
@@ -140,7 +140,7 @@ let data = [
     },
     {   //7
         titulo: "Recuperación de datos",
-        img: "https://centribal.com/wp-content/uploads/2020/05/Tipos-RD-min.png",
+        img: "https://images.wondershare.com/recoverit/article/2020/12/data-recovery-1.jpg",
         descripcion: "Cómo recuperar datos perdidos o borrados en una unidad de almacenamiento",
         precioT:200,
         precioD:250,
@@ -164,7 +164,7 @@ let data = [
     },
     {   //8
         titulo: "Optimización de rendimiento",
-        img: "https://pandorafms.com/blog/wp-content/uploads/2017/12/Optimizacion-de-rendimiento-web-featured.png",
+        img: "https://informaticapro.es/wp-content/uploads/2021/01/mejorar-rendimiento-ordenador-pc.jpg",
         descripcion: "Cómo mejorar el rendimiento de una computadora",
         precioT:150,
         precioD:200,
@@ -235,7 +235,7 @@ let data = [
     },
     {       //11
         titulo: "Configuración de impresora",
-        img: "https://todosobrewindows.com/wp-content/uploads/2020/06/How-to-Get-Your-Printer-Back-Online-in-Windows-10.png",
+        img: "https://www.muycomputerpro.com/wp-content/uploads/2018/11/impresora-PageWide-de-HP.jpg",
         descripcion: "Cómo configurar una impresora en una computadora",
         precioT:100,
         precioD:150, 

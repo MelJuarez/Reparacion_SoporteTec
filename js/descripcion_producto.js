@@ -33,12 +33,7 @@ data.forEach((cada_item) => {
                 <span>Q. ${productoSeleccionado.precio.toFixed(2)}</span>
         </div>
         </div>  
-        <div class="two"> 
-            <h4>Detalles del servicio</h4>
-            <ul>
-                ${productoSeleccionado.pasoAPaso.map(paso => `<li>${paso}</li>`).join('')}
-            </ul>
-        </div>          
+                  
 
     `;
 
@@ -50,3 +45,12 @@ data.forEach((cada_item) => {
             <p>${cada_item.descripcion}</p>
             <span>Q. ${cada_item.precio}</span> 
  * **** */
+
+            /*
+            <div class="two"> 
+            <h4>Detalles del servicio</h4>
+            <ul>
+                ${productoSeleccionado.pasoAPaso.map(paso => `<li>${paso}</li>`).join('')}
+            </ul>
+            </div>           
+            */
