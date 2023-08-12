@@ -13,9 +13,9 @@
             </div>           
                 <h2 class = "Titulo_producto">${cada_item.titulo}</h2>
                 <p>${cada_item.descripcion}</p>
-                <span>Q. ${cada_item.precio}</span>
-           
-        `;
+                <span>Q. ${cada_item.precioT}</span>
+                
+                `;
         main_DOM.appendChild(item);
 
     });
@@ -31,19 +31,40 @@
         let index = Array.from(productos).indexOf(this);// Obtiene el índice del producto al que se le dio clic
         let productoSeleccionado = data[index]; // Obtiene los detalles del producto
 
+        let autoDiv = '';
+        if (productoSeleccionado.DesdeCasa) {
+            autoDiv = '<div class="Auto">Desde casa</div>';
+        }
+        
+
     // Actualiza el contenido de la sección descripcion_del_producto con los detalles del producto seleccionado
     caja_descripcion_DOM.innerHTML = `
         <div class="one">
+       
             <div class="contenedor_img">
                 <img src="${productoSeleccionado.img}" alt="">
             </div>
-            <div class="contenedor_texto">
-                <h2>${productoSeleccionado.titulo}</h2>
-                <p>${productoSeleccionado.descripcion}</p>
-                <span>Q. ${productoSeleccionado.precio.toFixed(2)}</span>
+
+            <div class="one-details">
             
-            </div>
+                <div class="contenedor_texto">
+                    <h2>${productoSeleccionado.titulo}</h2>
+                    <p>${productoSeleccionado.descripcion}</p>
+                </div>
+
+                <div class="opc-compra">
+                    <span>En Taller <br>Q. ${productoSeleccionado.precioT.toFixed(2)}<br></span>
+                    <span>A Domicilio <br>Q. ${productoSeleccionado.precioD.toFixed(2)}</span>
+                </div>
+
+                <div class="btn-compra">
+                    ${autoDiv}
+                    <div>Comprar</div>
+                </div>
+                
+            </div>            
         </div>  
+
         <div class="two"> 
             <h4>Detalles del servicio</h4>
             <ul>
@@ -55,6 +76,10 @@
     main_DOM.classList.add("ocultar")
 
     }
+
+    
+
+
 
     function RDescrip (){
         let caja_descripcion_DOM = document.querySelector(".descripcion_del_producto")            

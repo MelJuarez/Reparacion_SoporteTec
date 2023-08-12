@@ -1,7 +1,7 @@
 let header_DOM = document.querySelector("#header");
 
 let header_componente = `
-        <h2> Técnico </h2>
+        <h2> Técnico Melissa</h2>
         <ul>
             <li>PC</li>
             <li>Laptop</li>

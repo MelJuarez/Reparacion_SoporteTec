@@ -7,3 +7,6 @@ html{
     font-size: 10px;
     font-family: 'Rajdhani', sans-serif;
 }
+:root{
+    --color1: #38FF4C;
+}

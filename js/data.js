@@ -3,7 +3,9 @@ let data = [
         titulo: "Cambio de pasta térmica",
         img: "https://hardzone.es/app/uploads-hardzone.es/2019/08/Pasta-térmica.jpg",
         descripcion: "Cómo cambiar la pasta térmica del procesador",
-        precio:100,
+        precioT:100,
+        precioD:150,
+        DesdeCasa:true,
         herramientas: [
             "Destornillador",
             "Paño de microfibra",
@@ -23,9 +25,11 @@ let data = [
     },
     {   //2
         titulo: "Instalación de Software",
-        img: "https://static.vecteezy.com/system/resources/previews/005/163/462/non_2x/man-updating-software-on-computer-with-progress-bar-and-installation-software-system-illustration-vector.jpg",
+        img: "https://www.tecnologia-informatica.com/wp-content/uploads/2019/04/word-image-16.jpeg",
         descripcion: "Cómo instalar software en una computadora",
-        precio:200,
+        precioT:200,
+        precioD:250,
+        DesdeCasa:true,
         herramientas: [
             "Computadora con sistema operativo instalado",
             "Software a instalar"
@@ -44,9 +48,11 @@ let data = [
     },
     {   //3
         titulo: "Resolución de problemas de red",
-        img: "https://incuatro.com/wp-content/uploads/2019/06/Redes-informaticas.jpg",
+        img: "https://cdn.goconqr.com/uploads/media/image/12702960/desktop_00f8d099-4716-47e4-9dbe-fe3e39bc3dfb.jpg",
         descripcion: "Cómo resolver problemas de conectividad de red",
-        precio:300,
+        precioT:300,
+        precioD:350,
+        DesdeCasa:true,
         herramientas: [
             "Computadora con conexión a internet",
             "Comprobador de cables de red",
@@ -68,7 +74,9 @@ let data = [
         titulo: "Eliminación de malware",
         img: "https://images.ecestaticos.com/A9sGHgjs9-Wf7pTrmRGcEeX_WXQ=/3x130:1630x1040/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fd0d%2F6e7%2F952%2Fd0d6e7952c575b655bb3886490d07abe.jpg",
         descripcion: "Cómo detectar y eliminar malware de una computadora",
-        precio:150,
+        precioT:150,
+        precioD:200,
+        DesdeCasa:true,
         herramientas: [
             "Antivirus actualizado",
             "Herramienta de eliminación de malware"
@@ -86,7 +94,9 @@ let data = [
         titulo: "Actualización de controladores",
         img: "https://cifpn1.com/tic/wp-content/uploads/2020/05/drivers_1200x720-656x394.png",
         descripcion: "Cómo actualizar los controladores de hardware en una computadora",
-        precio:80,
+        precioT:80,
+        precioD:130,
+        DesdeCasa:true,
         herramientas: [
             "Conexión a internet",
             "Navegador web",
@@ -107,7 +117,9 @@ let data = [
         titulo: "Configuración de red inalámbrica",
         img: "https://www.redesinalambricas.es/wp-content/uploads/2019/03/redes-inalambricas.jpg",
         descripcion: "Cómo configurar una red inalámbrica en el enrutador",
-        precio:120,
+        precioT:120,
+        precioD:170,
+        DesdeCasa:true,
         herramientas: [
             "Computadora con conexión a internet",
             "Enrutador inalámbrico"
@@ -130,7 +142,9 @@ let data = [
         titulo: "Recuperación de datos",
         img: "https://centribal.com/wp-content/uploads/2020/05/Tipos-RD-min.png",
         descripcion: "Cómo recuperar datos perdidos o borrados en una unidad de almacenamiento",
-        precio:200,
+        precioT:200,
+        precioD:250,
+        DesdeCasa:true,
         herramientas: [
             "Software de recuperación de datos",
             "Unidad de almacenamiento externa (opcional)"
@@ -152,7 +166,9 @@ let data = [
         titulo: "Optimización de rendimiento",
         img: "https://pandorafms.com/blog/wp-content/uploads/2017/12/Optimizacion-de-rendimiento-web-featured.png",
         descripcion: "Cómo mejorar el rendimiento de una computadora",
-        precio:150,
+        precioT:150,
+        precioD:200,
+        DesdeCasa:true,
         herramientas: [
             "Herramientas de limpieza y optimización del sistema",
             "Administrador de tareas"
@@ -175,7 +191,9 @@ let data = [
         titulo: "Configuración de correo electrónico",
         img: "https://support.content.office.net/es-es/media/c3c7d4eb-cb54-48b6-aaf8-ca88fa9394db.png",
         descripcion: "Cómo configurar una cuenta de correo electrónico en un cliente de correo",
-        precio:50,
+        precioT:50,
+        precioD:100,
+        DesdeCasa:true,
         herramientas: [
             "Cliente de correo electrónico instalado (por ejemplo, Outlook, Thunderbird)",
             "Credenciales de correo electrónico"
@@ -196,7 +214,9 @@ let data = [
         titulo: "Reemplazo de teclado",
         img: "https://st.depositphotos.com/26268280/53960/i/600/depositphotos_539604562-stock-photo-wizard-repairs-laptop-with-tools.jpg",
         descripcion: "Cómo reemplazar un teclado dañado en una computadora portátil",
-        precio:100,
+        precioT:100,
+        precioD:150,
+        DesdeCasa:false,
         herramientas: [
             "Destornillador",
             "Teclado de reemplazo compatible"
@@ -217,7 +237,9 @@ let data = [
         titulo: "Configuración de impresora",
         img: "https://todosobrewindows.com/wp-content/uploads/2020/06/How-to-Get-Your-Printer-Back-Online-in-Windows-10.png",
         descripcion: "Cómo configurar una impresora en una computadora",
-        precio:100,
+        precioT:100,
+        precioD:150, 
+        DesdeCasa:true,       
         herramientas: [
             "Impresora con cables o conexión inalámbrica",
             "Controladores de impresora"
