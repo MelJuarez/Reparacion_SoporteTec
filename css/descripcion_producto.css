@@ -16,6 +16,7 @@
     width:fit-content;
     padding: 2rem 3rem;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;   
     justify-content:space-evenly;
     align-self: center;
@@ -28,6 +29,39 @@
 
 .two{
     padding-left: 15rem;
+}
+.twoo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.twoo h4{
+    font-size: 2rem;
+   
+}
+.twoo li{
+    font-size: 2rem;
+
+}
+.three{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.four{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+    
+}
+.abc{
+    width: 55%;
+
+}
+.def{
+    width: 40%;
 }
 .contenedor_img{
     height: 30rem;
@@ -105,4 +139,18 @@
     border: none;
     background-color: white;
     align-self: flex-start;
+}
+
+.video-contenedor {
+    margin-top: 2rem;
+    text-align: center;
+}
+.video-contenedor h4{
+    font-size: 3rem;
+}
+.video-contenedor iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 30rem;
+    margin-bottom: 3rem;
 }

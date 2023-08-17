@@ -1,6 +1,7 @@
 let data = [
     {   //1
         titulo: "Cambio de pasta térmica",
+        videoLink:"https://youtu.be/Gsm02mt30vU",
         img: "https://hardzone.es/app/uploads-hardzone.es/2019/08/Pasta-térmica.jpg",
         descripcion: "Cómo cambiar la pasta térmica del procesador",
         precioT:100,
@@ -25,6 +26,7 @@ let data = [
     },
     {   //2
         titulo: "Instalación de Software",
+        videoLink:"https://youtu.be/Gsm02mt30vU",
         img: "https://www.tecnologia-informatica.com/wp-content/uploads/2019/04/word-image-16.jpeg",
         descripcion: "Cómo instalar software en una computadora",
         precioT:200,
@@ -48,6 +50,7 @@ let data = [
     },
     {   //3
         titulo: "Resolución de problemas de red",
+        videoLink:"https://youtu.be/Gsm02mt30vU",
         img: "https://cdn.goconqr.com/uploads/media/image/12702960/desktop_00f8d099-4716-47e4-9dbe-fe3e39bc3dfb.jpg",
         descripcion: "Cómo resolver problemas de conectividad de red",
         precioT:300,
@@ -72,6 +75,7 @@ let data = [
     },
     {   //4
         titulo: "Eliminación de malware",
+        videoLink:"https://youtu.be/Gsm02mt30vU",
         img: "https://images.ecestaticos.com/A9sGHgjs9-Wf7pTrmRGcEeX_WXQ=/3x130:1630x1040/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fd0d%2F6e7%2F952%2Fd0d6e7952c575b655bb3886490d07abe.jpg",
         descripcion: "Cómo detectar y eliminar malware de una computadora",
         precioT:150,
@@ -92,6 +96,7 @@ let data = [
     },
     {   //5
         titulo: "Actualización de controladores",
+        videoLink:"https://youtu.be/Gsm02mt30vU",
         img: "https://cdn.aarp.net/content/dam/aarp/home-and-family/personal-technology/2022/08/1140-windows11-esp.jpg",
         descripcion: "Cómo actualizar los controladores de hardware en una computadora",
         precioT:80,
@@ -115,6 +120,7 @@ let data = [
     },
     {   //6
         titulo: "Configuración de red inalámbrica",
+        videoLink:"https://youtu.be/Gsm02mt30vU",
         img: "https://www.clarin.com/img/2022/09/03/EskjPYYod_1256x620__1.jpg",
         descripcion: "Cómo configurar una red inalámbrica en el enrutador",
         precioT:120,
@@ -140,6 +146,7 @@ let data = [
     },
     {   //7
         titulo: "Recuperación de datos",
+        videoLink:"https://youtu.be/Gsm02mt30vU",
         img: "https://images.wondershare.com/recoverit/article/2020/12/data-recovery-1.jpg",
         descripcion: "Cómo recuperar datos perdidos o borrados en una unidad de almacenamiento",
         precioT:200,
@@ -164,6 +171,7 @@ let data = [
     },
     {   //8
         titulo: "Optimización de rendimiento",
+        videoLink:"https://youtu.be/Gsm02mt30vU",
         img: "https://informaticapro.es/wp-content/uploads/2021/01/mejorar-rendimiento-ordenador-pc.jpg",
         descripcion: "Cómo mejorar el rendimiento de una computadora",
         precioT:150,
@@ -189,6 +197,7 @@ let data = [
     },
     {   //9
         titulo: "Configuración de correo electrónico",
+        videoLink:"https://youtu.be/Gsm02mt30vU",
         img: "https://support.content.office.net/es-es/media/c3c7d4eb-cb54-48b6-aaf8-ca88fa9394db.png",
         descripcion: "Cómo configurar una cuenta de correo electrónico en un cliente de correo",
         precioT:50,
@@ -212,6 +221,7 @@ let data = [
     },
     {   //10
         titulo: "Reemplazo de teclado",
+        videoLink:"https://youtu.be/Gsm02mt30vU",
         img: "https://st.depositphotos.com/26268280/53960/i/600/depositphotos_539604562-stock-photo-wizard-repairs-laptop-with-tools.jpg",
         descripcion: "Cómo reemplazar un teclado dañado en una computadora portátil",
         precioT:100,
@@ -235,6 +245,7 @@ let data = [
     },
     {       //11
         titulo: "Configuración de impresora",
+        videoLink:"https://youtu.be/Gsm02mt30vU",
         img: "https://www.muycomputerpro.com/wp-content/uploads/2018/11/impresora-PageWide-de-HP.jpg",
         descripcion: "Cómo configurar una impresora en una computadora",
         precioT:100,

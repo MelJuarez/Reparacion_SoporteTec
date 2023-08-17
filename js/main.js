@@ -33,7 +33,7 @@
 
         let autoDiv = '';
         if (productoSeleccionado.DesdeCasa) {
-            autoDiv = '<div class="Auto">Desde casa</div>';
+           autoDiv = '<div class="Auto">Desde casa</div>';
         }
         
 
@@ -69,11 +69,16 @@
 
         
     `;
-    
-    let regresarBtn = caja_descripcion_DOM.querySelector('.regresar-btn');
-    regresarBtn.addEventListener('click', regresarAlInicio);
 
-    main_DOM.classList.add("ocultar")
+    
+        main_DOM.classList.add("ocultar")
+        
+        let regresarBtn = caja_descripcion_DOM.querySelector('.regresar-btn');
+        regresarBtn.addEventListener('click', regresarAlInicio);
+
+            // Agregar evento de clic para el botón "Auto"
+        let autoBtn = caja_descripcion_DOM.querySelector('.Auto');
+        autoBtn.addEventListener('click', () => mostrarPasosAuto(index));
 
     }
 
@@ -85,9 +90,8 @@
             </ul>
         </div>       
     */
-
-        //<div class ="regresar-btn">⮌</div>
-
+    //<div class ="regresar-btn">⮌</div>
+    
     productos.forEach ((cada_elemento) => {
 
         //console.log(cada_elemento);
@@ -95,8 +99,55 @@
 
     });
 
+
+    function mostrarPasosAuto(index) {
+        let caja_descripcion_DOM = document.querySelector(".descripcion_del_producto");
+        let productoSeleccionado = data[index];
+        
+        caja_descripcion_DOM.innerHTML = `
+            <div class="one">
+            <button class="regresar-btn">⮌</button> 
+                <div class="contenedor_img">
+                    <img src="${productoSeleccionado.img}" alt="">
+                </div>
+                <div class="contenedor_texto">
+                    <h2>${productoSeleccionado.titulo}</h2>
+                    <p>${productoSeleccionado.descripcion}</p>
+                </div>
+
+                <div class="twoo"> 
+                    <div class="three">
+                        <h4>Pasos a seguir</h4>
+                        <h4>Materiales</h4>
+                    </div>  
+                    <div class="four">
+                        <ol class="abc"><br>
+                            ${productoSeleccionado.pasoAPaso.map(paso => `<li>${paso}</li>`).join('')}
+                        </ol>
+                        
+                        <ol class=""def><br>
+                            ${productoSeleccionado.herramientas.map(paso => `<li>${paso}</li>`).join('')}
+                        </ol>
+                    </div>
+
+                    <div class="video-contenedor">
+                        <h4>Video Tutorial</h4>
+                        <iframe width="560" height="315" src="${productoSeleccionado.videoLink}" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            
+        `;
+        main_DOM.classList.add("ocultar")
+
+        let regresarBtn = caja_descripcion_DOM.querySelector('.regresar-btn');
+        regresarBtn.addEventListener('click', regresarAlInicio);
+    }
+
     function regresarAlInicio() {
         let caja_descripcion_DOM = document.querySelector(".descripcion_del_producto");
         caja_descripcion_DOM.innerHTML = ''; // Limpiar contenido
         main_DOM.classList.remove("ocultar"); // Mostrar la sección main nuevamente
     }
+
+   
